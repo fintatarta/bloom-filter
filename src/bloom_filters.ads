@@ -9,10 +9,9 @@ package Bloom_Filters is
      with
        Pre => Table_Size >= 2;
 
-   type Fill_Ratio is digits 16 range 0.0 .. 1.0;
    type Probability is digits 16 range 0.0 .. 1.0;
 
-   function Create (Expected_Fill       : Fill_Ratio;
+   function Create (Expected_N_Items    : Positive;
                     False_Positive_Prob : Probability)
                     return Bloom_Filter;
 

@@ -3,17 +3,13 @@ pragma Ada_2012;
 with Ada.Storage_IO;
 with Ada.Streams;
 with Ada.Unchecked_Conversion;
+with Ada.Numerics.Elementary_Functions;
 
 with GNAT.SHA512;
 
-with Bit_Extractors;
+with Stream_Array_Extractors;
 
 package body Bloom_Filters is
-   package Stream_Array_Extractors is
-     new Bit_Extractors (Entry_Type  => Ada.Streams.Stream_Element,
-                         Index_Type  => Ada.Streams.Stream_Element_Offset,
-                         Buffer_Type => Ada.Streams.Stream_Element_Array);
-
    package Key_Storage_Io is
      new Ada.Storage_IO (Key_Type);
 
@@ -124,12 +120,21 @@ package body Bloom_Filters is
    ------------
 
    function Create
-     (Expected_Fill : Fill_Ratio; False_Positive_Prob : Probability)
+     (Expected_N_Items    : Positive;
+      False_Positive_Prob : Probability)
       return Bloom_Filter
    is
+      use Ada.Numerics.Elementary_Functions;
+
+      N_Hash : constant Float :=
+                   Float'Ceiling (-Log (X    => Float (False_Positive_Prob),
+                                        Base => 2.0));
+
+      Table_Size : constant Positive :=
+                     Positive (N_Hash * Float (Expected_N_Items) / Log (2.0));
    begin
-      pragma Compile_Time_Warning (Standard.True, "Create unimplemented");
-      return raise Program_Error with "Unimplemented function Create";
+      return Create (Table_Size => Table_Size,
+                     N_Hashes   => Positive (N_Hash));
    end Create;
 
    ---------
