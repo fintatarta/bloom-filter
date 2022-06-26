@@ -6,11 +6,22 @@ with Ada.Unchecked_Conversion;
 
 with GNAT.SHA512;
 
+with Bit_Extractors;
+
 package body Bloom_Filters is
+   package Stream_Array_Extractors is
+     new Bit_Extractors (Entry_Type  => Ada.Streams.Stream_Element,
+                         Index_Type  => Ada.Streams.Stream_Element_Offset,
+                         Buffer_Type => Ada.Streams.Stream_Element_Array);
+
    package Key_Storage_Io is
      new Ada.Storage_IO (Key_Type);
 
    type Hash_Array is array (Map_Index range <>) of Hash_Type;
+
+   ----------------
+   -- Get_Hashes --
+   ----------------
 
    function Get_Hashes (Item         : Key_Type;
                         N_Hashes     : Map_Index;
@@ -18,6 +29,7 @@ package body Bloom_Filters is
                         return Hash_Array
    is
       use Ada.Streams;
+      use Stream_Array_Extractors;
 
       function Basic_Hash (Item : Key_Type) return Stream_Element_Array
       is
@@ -36,11 +48,22 @@ package body Bloom_Filters is
          return GNAT.SHA512.Digest (To_Stream_Array (Buffer));
       end Basic_Hash;
 
-      H : constant Stream_Element_Array := Basic_Hash (Item);
+      Extractor : Bit_Extractor := Create (Basic_Hash (Item));
 
       Result : Hash_Array (1 .. N_Hashes);
-   begin
 
+   begin
+      declare
+         Tmp : Unsigned_128;
+      begin
+         for K in Result'Range loop
+            Extract (From   => Extractor,
+                     N_Bit  => Bit_Per_Hash,
+                     Result => Tmp);
+
+            Result (K) := Hash_Type (Tmp);
+         end loop;
+      end;
       return Result;
    end Get_Hashes;
 

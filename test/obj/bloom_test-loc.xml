@@ -26,37 +26,253 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 39" >
+    <file_marker column=" 1" line=" 41" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 43" line=" 13" >
+    <file_marker column=" 43" line=" 15" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 11" >
+    <file_marker column=" 20" line=" 13" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 39" line=" 10" >
+    <file_marker column=" 39" line=" 12" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 37" >
+    <file_marker column=" 4" line=" 39" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 22" line=" 28" >
+    <file_marker column=" 22" line=" 30" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 44" line=" 25" >
+    <file_marker column=" 44" line=" 27" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 22" line=" 28" >
+    <file_marker column=" 22" line=" 30" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 66" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 70" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 82" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 89" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 59" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 103" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 98" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 94" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 111" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 18" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 17" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 53" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 17" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 50" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 22" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 151" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 24" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 58" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 6" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 58" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/g-md5.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 42" >
+      <vfs_project />
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/g-md5.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 126" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/g-sechas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 173" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/g-sechas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 54" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/a-stream.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 55" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/a-stream.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 42" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/a-stream.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 167" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/g-sechas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 163" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/.config/alire/cache/dependencies/gnat_native_11.2.4_2f37a10b/lib/gcc/x86_64-pc-linux-gnu/11.2.0/adainclude/g-sechas.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 65" line=" 32" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 35" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 35" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 36" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 22" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 47" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 24" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 46" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 43" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 24" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 49" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 66" line=" 6" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 4" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 6" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 53" line=" 29" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 27" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 29" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 155" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 12" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 16" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 74" line=" 16" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>
