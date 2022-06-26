@@ -6,9 +6,57 @@
       <vfs_project />
       <vfs_file>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 23" line=" 8" >
+    <file_marker column=" 23" line=" 8" >
       <vfs_project />
       <vfs_file>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 8" >
+      <vfs_project />
+      <vfs_file>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 13" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 11" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 10" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 37" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 28" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 25" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 22" line=" 28" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
   </Project>
 </Locations>
