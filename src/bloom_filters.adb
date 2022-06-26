@@ -121,14 +121,13 @@ package body Bloom_Filters is
 
    function Create
      (Expected_N_Items    : Positive;
-      False_Positive_Prob : Probability)
+      False_Positive_P : Probability)
       return Bloom_Filter
    is
       use Ada.Numerics.Elementary_Functions;
 
       N_Hash : constant Float :=
-                   Float'Ceiling (-Log (X    => Float (False_Positive_Prob),
-                                        Base => 2.0));
+                 Float'Ceiling (-Log (Float (False_Positive_P)) / Log (2.0));
 
       Table_Size : constant Positive :=
                      Positive (N_Hash * Float (Expected_N_Items) / Log (2.0));

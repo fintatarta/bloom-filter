@@ -7,3 +7,4 @@
 /lib/[a-zA-Z]*
 /alire/
 /config/
+test/obj/[a-z]*

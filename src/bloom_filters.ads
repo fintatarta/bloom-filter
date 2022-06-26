@@ -12,7 +12,7 @@ package Bloom_Filters is
    type Probability is digits 16 range 0.0 .. 1.0;
 
    function Create (Expected_N_Items    : Positive;
-                    False_Positive_Prob : Probability)
+      False_Positive_P : Probability)
                     return Bloom_Filter;
 
    procedure Add (Filter : in out Bloom_Filter;
