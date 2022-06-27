@@ -1,6 +1,5 @@
 pragma Ada_2012;
 
-with Ada.Storage_IO;
 with Ada.Streams;
 with Ada.Unchecked_Conversion;
 with Ada.Numerics.Elementary_Functions;
@@ -10,9 +9,6 @@ with GNAT.SHA512;
 with Stream_Array_Extractors;
 
 package body Bloom_Filters is
-   package Key_Storage_Io is
-     new Ada.Storage_IO (Key_Type);
-
    type Hash_Array is array (Map_Index range <>) of Hash_Type;
 
    ----------------
@@ -29,19 +25,17 @@ package body Bloom_Filters is
 
       function Basic_Hash (Item : Key_Type) return Stream_Element_Array
       is
-         subtype Intermediate_Array is
-           Stream_Element_Array (1 .. Key_Storage_Io.Buffer_Type'Length);
+         Entry_Buffer_Size : constant Stream_Element_Count :=
+                               Item'Size / Stream_Element'Size;
+
+         subtype Entry_Buffer is Stream_Element_Array (1 .. Entry_Buffer_Size);
 
          function To_Stream_Array is
-           new Ada.Unchecked_Conversion (Source => Key_Storage_Io.Buffer_Type,
-                                         Target => Intermediate_Array);
+           new Ada.Unchecked_Conversion (Source => Key_Type,
+                                         Target => Entry_Buffer);
 
-         Buffer : Key_Storage_Io.Buffer_Type;
       begin
-         Key_Storage_Io.Write (Buffer => Buffer,
-                               Item   => Item);
-
-         return GNAT.SHA512.Digest (To_Stream_Array (Buffer));
+         return GNAT.SHA512.Digest (To_Stream_Array (Item));
       end Basic_Hash;
 
       Extractor : Bit_Extractor := Create (Basic_Hash (Item));

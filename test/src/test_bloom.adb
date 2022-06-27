@@ -1,6 +1,6 @@
-procedure Main is
+procedure Test_Bloom is
 
 begin
    --  Insert code here.
    null;
-end Main;
+end Test_Bloom;

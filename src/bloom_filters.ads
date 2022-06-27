@@ -1,3 +1,5 @@
+pragma SPARK_Mode (On);
+
 generic
    type Key_Type is private;
 package Bloom_Filters is
@@ -9,7 +11,7 @@ package Bloom_Filters is
      with
        Pre => Table_Size >= 2;
 
-   type Probability is digits 16 range 0.0 .. 1.0;
+   type Probability is new Float range 0.0 .. 1.0;
 
    function Create (Expected_N_Items    : Positive;
       False_Positive_P : Probability)

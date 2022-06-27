@@ -13,7 +13,7 @@ package Bit_Extractors is
                     return Bit_Extractor
      with
        Post =>
-         Remaining (Create'Result) = Entry_Type'Stream_Size * Data'Length;
+         Remaining (Create'Result) = Entry_Type'Size * Data'Length;
 
    procedure Extract (From   : in out Bit_Extractor;
                       N_Bit  : Positive;
