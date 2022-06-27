@@ -1,7 +1,5 @@
 pragma Ada_2012;
 
-with Ada.Streams;
-with Ada.Unchecked_Conversion;
 with Ada.Numerics.Elementary_Functions;
 
 with GNAT.SHA512;
@@ -25,14 +23,15 @@ package body Bloom_Filters is
 
       function Basic_Hash (Item : Key_Type) return Stream_Element_Array
       is
-         Entry_Buffer_Size : constant Stream_Element_Count :=
-                               Item'Size / Stream_Element'Size;
-
-         subtype Entry_Buffer is Stream_Element_Array (1 .. Entry_Buffer_Size);
-
-         function To_Stream_Array is
-           new Ada.Unchecked_Conversion (Source => Key_Type,
-                                         Target => Entry_Buffer);
+         --  Entry_Buffer_Size : constant Stream_Element_Count :=
+         --                        Item'Size / Stream_Element'Size;
+         --
+         --  subtype Entry_Buffer is Stream_Element_Array
+         --  (1 .. Entry_Buffer_Size);
+         --
+         --  function To_Stream_Array is
+         --    new Ada.Unchecked_Conversion (Source => Key_Type,
+         --                                  Target => Entry_Buffer);
 
       begin
          return GNAT.SHA512.Digest (To_Stream_Array (Item));

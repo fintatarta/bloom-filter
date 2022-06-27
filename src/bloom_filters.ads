@@ -1,7 +1,12 @@
 pragma SPARK_Mode (On);
 
+with Ada.Streams;
+
 generic
-   type Key_Type is private;
+   type Key_Type (<>) is private;
+   with function To_Stream_Array (X : Key_Type)
+                                  return Ada.Streams.Stream_Element_Array
+     is <>;
 package Bloom_Filters is
    type Bloom_Filter (<>) is private;
 
