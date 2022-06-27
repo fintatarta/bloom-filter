@@ -1,15 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_file>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 8" >
-      <vfs_project />
-      <vfs_file>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_file>
-    </file_marker>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom.ads</vfs_file>
@@ -574,7 +565,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/test_bloom.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 16" line=" 6" >
+    <file_marker column=" 6" line=" 7" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/test_bloom.adb</vfs_file>
     </file_marker>
@@ -610,7 +601,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 6" >
+    <file_marker column=" 31" line=" 3" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -626,7 +617,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 34" line=" 6" >
+    <file_marker column=" 31" line=" 3" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -634,19 +625,19 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 6" >
+    <file_marker column=" 31" line=" 3" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 6" >
+    <file_marker column=" 31" line=" 3" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 7" >
+    <file_marker column=" 1" line=" 4" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 5" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -658,7 +649,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 5" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -674,7 +665,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bit_extractors.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 5" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -754,7 +745,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 5" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -762,7 +753,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 5" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -778,7 +769,7 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 5" >
+    <file_marker column=" 1" line=" 5" >
       <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/test/src/integer_bloom.ads</vfs_file>
     </file_marker>
@@ -798,9 +789,17 @@
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 22" line=" 76" >
+    <file_marker column=" 22" line=" 76" >
       <vfs_project>/home/rpr/Ada/bloom-filter/bloom.gpr</vfs_project>
       <vfs_file>/home/rpr/Ada/bloom-filter/src/bloom_filters.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 50" line=" 17" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/test/src/test_bloom.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 12" >
+      <vfs_project>/home/rpr/Ada/bloom-filter/test/bloom_test.gpr</vfs_project>
+      <vfs_file>/home/rpr/Ada/bloom-filter/test/src/test_bloom.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
