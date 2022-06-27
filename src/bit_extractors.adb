@@ -21,7 +21,6 @@ package body Bit_Extractors is
    procedure Extract
      (From : in out Bit_Extractor; N_Bit : Positive; Result : out Unsigned_128)
    is
-      K : constant Unsigned_128 := 2 ** Entry_Type'Stream_Size;
    begin
       if Remaining (From) < N_Bit then
          raise Constraint_Error;
@@ -32,10 +31,11 @@ package body Bit_Extractors is
         and then From.Cursor <= From.Buffer'Last
       loop
          From.Working_Area :=
-           K * From.Working_Area + Unsigned_128 (From.Buffer (From.Cursor));
+           Entry_Type'Modulus * From.Working_Area
+             + Unsigned_128 (From.Buffer (From.Cursor));
 
          From.Bit_In_Work_Area :=
-           From.Bit_In_Work_Area + Entry_Type'Stream_Size;
+           From.Bit_In_Work_Area + Entry_Type'Size;
 
          From.Cursor := From.Cursor + 1;
       end loop;
@@ -50,11 +50,11 @@ package body Bit_Extractors is
       end if;
 
       declare
-         M : constant Unsigned_128 := 2 ** N_Bit;
+         M : constant Unsigned_128 := 2 ** (From.Bit_In_Work_Area - N_Bit);
       begin
-         Result := From.Working_Area mod M;
+         Result := From.Working_Area / M;
 
-         From.Working_Area := From.Working_Area / M;
+         From.Working_Area := From.Working_Area mod M;
 
          From.Bit_In_Work_Area := From.Bit_In_Work_Area - N_Bit;
       end;

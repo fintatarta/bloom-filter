@@ -2,6 +2,7 @@ with Ada.Text_IO;            use Ada.Text_IO;
 with Ada.Streams;            use Ada.Streams;
 
 with Ada.Strings.Unbounded;
+with Ada.Strings.Fixed;
 
 with Stream_Array_Extractors;
 
@@ -21,16 +22,6 @@ procedure Test_Bit_Extractors is
          end if;
       end return;
    end To_Binary;
-
-   procedure Test_To_Binary is
-      Success : Boolean := True;
-   begin
-      Success := Success and (To_Binary (3, 4) = "0011");
-      Success := Success and (To_Binary (3, 2) = "11");
-      Success := Success and (To_Binary (16#fa#, 9) = "011111010");
-
-      Put_Line ("Test to binary: " & Success'Image);
-   end Test_To_Binary;
 
    function To_Binary (X : Stream_Element_Array) return String
    is
@@ -61,20 +52,48 @@ procedure Test_Bit_Extractors is
                   N_Bit  => N_Bit,
                   Result => Tmp);
 
+         -- Put_Line (Tmp'Image & " " & To_Binary (Integer (Tmp), N_Bit));
+
          Accumulator := Accumulator & To_Binary (Integer (Tmp), N_Bit);
       end loop;
 
       declare
+         use Ada.Strings;
+
          S : constant String := To_String (Accumulator);
-         E : constant String := Expected (1 .. S'Length);
+         E : constant String := Fixed.Head (Expected, S'Length);
+         R : constant Natural :=  (Data'Length * 8) mod N_Bit;
       begin
-         Put_Line (S);
-         Put_Line (E);
-         Put_Line (Boolean'Image (S = E));
+         if False then
+            Put_Line (Expected);
+            Put_Line (S);
+            Put_Line (E);
+         end if;
+
+         Put_Line (Boolean'Image ((S = E) and (R = Remaining (Extractor))));
       end;
    end Do_Test;
 
-   A   : constant Stream_Element_Array := (1=>13); --, 25, 41, 79);
+
+   procedure Test_To_Binary is
+      Success : Boolean := True;
+   begin
+      Success := Success and (To_Binary (3, 4) = "0011");
+      Success := Success and (To_Binary (3, 2) = "11");
+      Success := Success and (To_Binary (16#fa#, 9) = "011111010");
+
+      Put_Line ("Test to binary: " & Success'Image);
+   end Test_To_Binary;
+
+   procedure Test_Extraction is
+      A   : constant Stream_Element_Array := (13, 25, 41, 79, 115, 250, 7);
+   begin
+      Do_Test (A, 11);
+      Do_Test (A, 3);
+      Do_Test (A, 15);
+      Do_Test (A, 8);
+      Do_Test (A, 24);
+   end Test_Extraction;
 begin
-   Do_Test (A, 5);
+   Test_Extraction;
 end Test_Bit_Extractors;
